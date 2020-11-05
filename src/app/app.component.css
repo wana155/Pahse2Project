@@ -1,6 +1,9 @@
 #main{background-color:rgb(186, 186, 186);
     font-family: serif;}
 
+    .titulo{font-size: 68px;
+        text-align: center;
+        font-style: cursive;}
 #hsma{font-size:20px;}
 #hsmall{font-size: 8px;}
 #titulo2{text-align: center;}

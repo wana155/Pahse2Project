@@ -7,14 +7,13 @@
     </div>
     <br>
     <nav class="navbarro">
-        <a class ="pestanas active" href="./index.html">Home</a>   
-        <a class ="pestanas" href="./blogs.html">Blog</a>  
-        <a class ="pestanas" href="./about.html">About</a>   
-        <a class ="pestanas" href="./contact.html">Contact</a>  
+        <a id="one" class ="pestanas active" (click)="changeActive('one')" routerLink='home'>Home</a>   
+        <a id="two" class ="pestanas" (click)="changeActive('two')" routerLink='assessment' >Assessment</a>  
+        <a id="three" class ="pestanas" (click)="changeActive('three')" routerLink='contact'>Contact</a>  
     </nav>
 
-<app-home></app-home>
-<app-assessment></app-assessment>
-<app-contact></app-contact>
 
+ <router-outlet></router-outlet>   
+<hr>    
+<p>{{activeHom}}</p>
 </body>
