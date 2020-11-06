@@ -32,5 +32,17 @@
     padding: 10px;
     padding-left: 25px;
     padding-right: 25px;}
+
+    #four {
+
+        padding-left:20%;
+     }
+     .centeredTitle{
+         font-size: 2.8em;
+         padding: 1em;
+         padding-left: 10%;
+         padding-bottom: .5em;
+          color: black;
+      }
     
      
