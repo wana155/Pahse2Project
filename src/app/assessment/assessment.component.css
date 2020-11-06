@@ -30,9 +30,10 @@ height:900px;
 padding-left: 23%;
 padding-right: 23% ;
 padding-top:8% ;
+padding-bottom:8% ;
 }
 
-.forma,.forme{
+.forma{
 display: flex;
 flex-direction: column;
 align-items: left;
@@ -44,11 +45,38 @@ border: black;
 border-width: 52px;
 border: 6px solid white;
 }
+
+.formi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 35px;
+    color: black;
+    background:white;
+    border-radius: 9px;
+    border: black;
+    border-width: 52px;
+    border: 6px solid white;
+    }
 /*remove this styling*/
-.forma:hover {
+.formi:hover {
 background-color:rgb(185, 122, 87);
 color:rgb(0, 0, 0);
 }
+.wrapperDiv  {
+    margin: auto;
+   
+}
+.wrapperDiv button{
+   padding-left: 30px;
+   padding-right: 30px;
+   font-size: 1.13em;
+}
+.wrapperDiv h5{
+    padding-top: 12px;
+}
+
+
 .rightt,.leftt {
     padding:4px;
     margin-bottom: 25px;

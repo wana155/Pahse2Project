@@ -1,20 +1,48 @@
 <div style="background-color: rgb(43, 13, 13);">
    
-    <nav id="cuerpoZ">
+    <nav id="cuerpoZ" *ngIf="credentialsActive">
         <div class="forma">
-            <div class="wrapperDiv">
                 <h1 style="text-align: center;">Welcome to The Company<sup id="hsma">TM</sup>'s Testing Application </h1>
-                <h3>Please enter your credentials to begin assessment:</h3>
-            </div>
-            <h2>Question here?</h2>
-                <p>Answers</p>
+                <br>
+                <br>
+                <div class="wrapperDiv" *ngIf="credentialsIno;">
+                    <h4>Enter your credentials to begin assessment:</h4>
+                    <h5> First Name: </h5>  <input type="text" name="name" id="name" [(ngModel)]="first">
+                    <h5> Last Name: </h5> <input type="text" name="last" id="last" [(ngModel)]="last">
+                    <h5>Candidate's ID: </h5> <input type="text" name="id" id="id" [(ngModel)]="candidateID">
+                    <br>
+                    <br>
+                    <button (click)="credentials()" class="btn btn-warning"> Submit</button>
+                </div>
+                <div class="wrapperDiv" *ngIf="!credentialsIno">
+                    <h4>Hi {{first}}, choose a assessment to begin :</h4>
+    
+                       <a href="javascript:void(0);" (click)="option(1)" style="text-decoration: none;">
+                           <div class="formi">  JavaScript</div>
+                        </a>
+                        <a href="javascript:void(0);" (click)="option(2)" style="text-decoration: none;">
+                            <div class="formi">  Object Oriented Programming</div>
+                         </a>
+                         <a href="javascript:void(0);" (click)="option(3)" style="text-decoration: none;">
+                            <div class="formi">  C++</div>
+                         </a>
+                         <a href="javascript:void(0);" (click)="option(4)" style="text-decoration: none;">
+                            <div class="formi">  HTML/CSS</div>
+                         </a>
+                    <br>
+                    <br>
+                </div>
+                <br>
+                <br>
         </div>
 
     </nav>
+
+    
    
    
    
-    <div id="questionare">
+    <div id="questionare" *ngIf="questionsActive">
     <div id="wrapperDiv">
     <div style=" padding: 25px; padding-top: 60px; margin-left: 5%;float: left; color: white;" ><h1>Questions</h1></div> 
     <div style=" padding: 25px; padding-top: 60px; margin-left: 31%;float: center; color: white;" ><h1>Quiz</h1></div>
