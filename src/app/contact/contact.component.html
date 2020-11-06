@@ -1,1 +1,38 @@
-<p>contact works!</p>
+<div class="containero" style="padding-left: 35% ;">
+    <h1> Contact Us</h1> 
+    <p class="aboutText" style="min-width: 320px; max-width: 500px;">  Contact us for any inquiries related to The Company<sup id = "hsmall">TM</sup> and its related services. Give us your information and a representative will be in contact with you. </p>
+        
+<form style="width: 320px;" onsubmit="success()">
+    <div class="form-group">
+        <label class="aboutText">Name:</label>
+        <input type="text" class="form-control" id="cname" required>
+      </div>
+    <div class="form-group">
+      <label class="aboutText" >Email address</label>
+      <input type="email" class="form-control" id="cemail" aria-describedby="emailHelp" required>
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with other parties.</small>
+    </div>
+    <div class="form-group">
+        <label class="aboutText">Phone Number</label>
+        <input type="number" class="form-control" id="cnumber">
+      </div>
+      <div class="form-group">
+        <label class="aboutText">Company/Organization:</label>
+        <input type="text" class="form-control" id="corg">
+      </div>
+    <div class="form-group">
+      <label class="aboutText">Subject</label>
+      <input type="text" class="form-control" id="csubject" required>
+    </div>
+    <div class="form-group">
+        <label class="aboutText">Inquiry Details</label>
+        <textarea rows="4" class="form-control" id="cinquiry"></textarea>
+      </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="creceive">
+      <label class="aboutText" >Sign Me Up To Recieve More Information About Our Services</label>
+    </div>
+    <button type="submit" class="btn btn-warning" >Submit</button>
+  </form>
+   </div>
+
