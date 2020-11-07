@@ -17,16 +17,16 @@
             <nav style="width: 100%;height:150px ;">
             </nav>
          </div> 
-         
+        <!--- <a [routerLink]='assessment'>Click Me</a>-->
          
 <div class="row" id="three"> 
     <h1 class="centeredTitle" style="color: white;">Get Hired Today! </h1>
     <p class="simpleParagraph">If you have been given a candidate ID number, Congratulations! you are ready to take the next steps towards getting a career at The Company. Click below to register and take the assessment.</p>
     <div id="botone">
         
-        <button [routerLink]="'assessment'" type="button" class="btn btn-warning" style=" font-size: 1.3em;" >I Have an ID</button>
+        <button (click)="buttonOne();" type="button" class="btn btn-warning" style=" font-size: 1.3em;" >I Have an ID</button>
         
-        <button onclick="[routerLink]='assessment';" type="button" class="btn btn-outline-light " style="margin-left: 15px; font-size: 1.3em;">Contac Us</button>
+        <button (click)="buttonTwo();" type="button" class="btn btn-outline-light " style="margin-left: 15px; font-size: 1.3em;">Contac Us</button>
         
     </div>
 </div> 

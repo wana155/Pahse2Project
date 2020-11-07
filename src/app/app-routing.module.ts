@@ -8,7 +8,8 @@ import {AssessmentComponent} from './assessment/assessment.component';
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'contact', component: ContactComponent},
-  {path: 'assessment', component: AssessmentComponent}
+  {path: 'assessment', component: AssessmentComponent},
+  {path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({
