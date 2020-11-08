@@ -10,12 +10,12 @@ export class CredentialServiceService {
   constructor(private http:HttpClient) { }
 
   loadData(): Observable<User[]>{
-    return this.http.get<User[]>("http://localhost:3000/todo");
+    return this.http.get<User[]>("http://localhost:3000/user");
   } 
 }
 
 export class User{
   constructor(public fname: string,
     public lname:string,
-    public cnadidateId:number){}
+    public candidateId:number){}
 }

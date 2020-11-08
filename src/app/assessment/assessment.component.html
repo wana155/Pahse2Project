@@ -14,6 +14,15 @@
                     <br>
                     <button (click)="credentials()" class="btn btn-warning"> Submit</button>
                 </div>
+
+
+                <div *ngFor="let obj of allUsers">
+                    <p>{{obj.fname}}</p>
+                    <p>{{obj.lname}}</p>
+                    <p>{{obj.candidateId}}</p>
+                    <hr>
+                </div>
+                
                 <div class="wrapperDiv" *ngIf="!credentialsIno">
                     <h4>Hi {{first}}, choose a assessment to begin :</h4>
     
