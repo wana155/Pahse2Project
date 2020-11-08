@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { AssessmentComponent } from './assessment/assessment.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from "@angular/forms";
+import { HttpClientModule } from '@angular/common/http';
+import {CredentialServiceService} from './credential-service.service';
 
 @NgModule({
   declarations: [
@@ -18,9 +20,10 @@ import { FormsModule } from "@angular/forms";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [CredentialServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

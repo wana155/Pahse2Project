@@ -121,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "phase2Project"
+    }
+  },
+  "defaultProject": "phase2Project",
+  "cli": {
+    "analytics": false
+  }
 }

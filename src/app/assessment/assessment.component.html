@@ -7,9 +7,9 @@
                 <br>
                 <div class="wrapperDiv" *ngIf="credentialsIno;">
                     <h4>Enter your credentials to begin assessment:</h4>
+                    <h5>Candidate's ID: </h5> <input type="text" name="id" id="id" [(ngModel)]="candidateID">
                     <h5> First Name: </h5>  <input type="text" name="name" id="name" [(ngModel)]="first">
                     <h5> Last Name: </h5> <input type="text" name="last" id="last" [(ngModel)]="last">
-                    <h5>Candidate's ID: </h5> <input type="text" name="id" id="id" [(ngModel)]="candidateID">
                     <br>
                     <br>
                     <button (click)="credentials()" class="btn btn-warning"> Submit</button>
