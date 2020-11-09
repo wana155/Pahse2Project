@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from "@angular/forms";
 import { HttpClientModule } from '@angular/common/http';
 import {CredentialServiceService} from './credential-service.service';
+import {QuizService} from './quiz.service';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,7 @@ import {CredentialServiceService} from './credential-service.service';
     FormsModule,
     HttpClientModule
   ],
-  providers: [CredentialServiceService],
+  providers: [CredentialServiceService,QuizService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
