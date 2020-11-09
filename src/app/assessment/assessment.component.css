@@ -19,8 +19,8 @@ font-size: 1.5em;
 }
 
 #colo{
-padding-left:5%;
-padding-right:15% ;
+padding-left:25%;
+padding-right:25% ;
 }
 #cuerpo{
 overflow-y: scroll; 
@@ -56,7 +56,7 @@ border: 6px solid white;
     border-radius: 9px;
     border: black;
     border-width: 52px;
-    border: 6px solid white;
+    border: 2px solid rgb(184, 184, 184);
     }
 /*remove this styling*/
 .formi:hover {
@@ -65,12 +65,14 @@ color:rgb(0, 0, 0);
 }
 .wrapperDiv  {
     margin: auto;
-   
 }
 .wrapperDiv button{
    padding-left: 30px;
    padding-right: 30px;
    font-size: 1.13em;
+}
+.quiz{
+    width: 200px;
 }
 .wrapperDiv h5{
     padding-top: 12px;
