@@ -80,11 +80,91 @@
     "correct": 1
   },
   {
-    "queation": "Q 1 - Which statement(s) best describes an object's attributes?",
-    "an1": "Attributes act like the nouns of an object.",
-    "an2": "Attributes can mean pretty much whatever you want them to mean — that's what we mean by 'open source.'",
-    "an3": "Attributes describe an object's behavior",
-    "an4": "All of the above.",
+    "queation": "Q 1 -  Which is private member functions access scope?",
+    "an1": "Member functions which can only be used within the class",
+    "an2": "Member functions which can used outside the class",
+    "an3": "Member functions which are accessible in derived class",
+    "an4": "Member functions which can’t be accessed inside the class",
+    "correct": 1
+  },
+  {
+    "queation": "Q 2 - Which among the following is true?",
+    "an1": "The private members can’t be accessed by public members of the class",
+    "an2": "The private members can be accessed by public members of the class.",
+    "an3": "The private members can be accessed only by the private members of the class",
+    "an4": "The private members can’t be accessed by the protected members of the class",
+    "correct": 2
+  },
+  {
+    "queation": "Q 3 - Which member can never be accessed by inherited classes?",
+    "an1": "Private member function",
+    "an2": "Public member function",
+    "an3": "Protected member function",
+    "an4": "All can be accessed",
+    "correct": 1
+  },
+  {
+    "queation": "Q 4 - Which syntax among the following shows that a member is private in a class?",
+    "an1": "private: functionName(parameters)",
+    "an2": "private(functionName(parameters))",
+    "an3": "private functionName(parameters)",
+    "an4": "private::functionName(parameters)",
+    "correct": 3
+  },
+  {
+    "queation": "Q 5 - If private member functions are to be declared in C++ then ",
+    "an1": "private: <all private members>",
+    "an2": "private <member name>",
+    "an3": "private(private member list)",
+    "an4": "private :- <private members>",
+    "correct": 1
+  },
+  {
+    "queation": "Q 6 - In java, which rule must be followed?",
+    "an1": "Keyword private preceding list of private member’s",
+    "an2": "Keyword private with a colon before list of private member’s",
+    "an3": "Keyword private with arrow before each private member",
+    "an4": "Keyword private preceding each private member",
+    "correct": 4
+  },
+  {
+    "queation": "Q 7 -  Which is private member functions access scope?",
+    "an1": "Member functions which can only be used within the class",
+    "an2": "Member functions which can used outside the class",
+    "an3": "Member functions which are accessible in derived class",
+    "an4": "Member functions which can’t be accessed inside the class",
+    "correct": 1
+  },
+  {
+    "queation": "Q 8 - Which among the following is true?",
+    "an1": "The private members can’t be accessed by public members of the class",
+    "an2": "The private members can be accessed by public members of the class.",
+    "an3": "The private members can be accessed only by the private members of the class",
+    "an4": "The private members can’t be accessed by the protected members of the class",
+    "correct": 2
+  },
+  {
+    "queation": "Q 9 - Which member can never be accessed by inherited classes?",
+    "an1": "Private member function",
+    "an2": "Public member function",
+    "an3": "Protected member function",
+    "an4": "All can be accessed",
+    "correct": 1
+  },
+  {
+    "queation": "Q 10 - Which syntax among the following shows that a member is private in a class?",
+    "an1": "private: functionName(parameters)",
+    "an2": "private(functionName(parameters))",
+    "an3": "private functionName(parameters)",
+    "an4": "private::functionName(parameters)",
+    "correct": 3
+  },
+  {
+    "queation": "Q 1 - In how many ways can an object be passed to a function in C++?",
+    "an1": "1",
+    "an2": "2",
+    "an3": "3",
+    "an4": "4",
     "correct": 3
   },
   {
@@ -158,6 +238,86 @@
     "an3": "toLocaleString()",
     "an4": "toPrecision",
     "correct": 1
+  },
+  {
+    "queation": "Q 1 -  What does HTML stand for?",
+    "an1": "Hyper Text Markup Language",
+    "an2": "Home Tool Markup Language",
+    "an3": "Hyperlinks and Text Markup Language",
+    "an4": "None",
+    "correct": 1
+  },
+  {
+    "queation": "Q 2 -  What does CSS stand for?",
+    "an1": "Creative Style Sheets",
+    "an2": "Colorful Style Sheets",
+    "an3": "Computer Style Sheets",
+    "an4": "Cascading Style Sheets",
+    "correct": 4
+  },
+  {
+    "queation": "Q 3 - Which member can never be accessed by inherited classes?",
+    "an1": "Private member function",
+    "an2": "Public member function",
+    "an3": "Protected member function",
+    "an4": "All can be accessed",
+    "correct": 1
+  },
+  {
+    "queation": "Q 4 - Which syntax among the following shows that a member is private in a class?",
+    "an1": "private: functionName(parameters)",
+    "an2": "private(functionName(parameters))",
+    "an3": "private functionName(parameters)",
+    "an4": "private::functionName(parameters)",
+    "correct": 3
+  },
+  {
+    "queation": "Q 5 - If private member functions are to be declared in C++ then ",
+    "an1": "private: <all private members>",
+    "an2": "private <member name>",
+    "an3": "private(private member list)",
+    "an4": "private :- <private members>",
+    "correct": 1
+  },
+  {
+    "queation": "Q 6 - In java, which rule must be followed?",
+    "an1": "Keyword private preceding list of private member’s",
+    "an2": "Keyword private with a colon before list of private member’s",
+    "an3": "Keyword private with arrow before each private member",
+    "an4": "Keyword private preceding each private member",
+    "correct": 4
+  },
+  {
+    "queation": "Q 7 -  Which is private member functions access scope?",
+    "an1": "Member functions which can only be used within the class",
+    "an2": "Member functions which can used outside the class",
+    "an3": "Member functions which are accessible in derived class",
+    "an4": "Member functions which can’t be accessed inside the class",
+    "correct": 1
+  },
+  {
+    "queation": "Q 8 - Which among the following is true?",
+    "an1": "The private members can’t be accessed by public members of the class",
+    "an2": "The private members can be accessed by public members of the class.",
+    "an3": "The private members can be accessed only by the private members of the class",
+    "an4": "The private members can’t be accessed by the protected members of the class",
+    "correct": 2
+  },
+  {
+    "queation": "Q 9 - Which member can never be accessed by inherited classes?",
+    "an1": "Private member function",
+    "an2": "Public member function",
+    "an3": "Protected member function",
+    "an4": "All can be accessed",
+    "correct": 1
+  },
+  {
+    "queation": "Q 10 - Which syntax among the following shows that a member is private in a class?",
+    "an1": "private: functionName(parameters)",
+    "an2": "private(functionName(parameters))",
+    "an3": "private functionName(parameters)",
+    "an4": "private::functionName(parameters)",
+    "correct": 3
   }
  
 ]}

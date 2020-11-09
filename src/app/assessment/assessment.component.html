@@ -64,20 +64,20 @@
                                 Time ⏰
                             </div>
                         </div>
-                        <h2> {{this.allQuestions[currentIndex].queation}}</h2>
+                        <h2> {{this.allQuestions[currentIndex+displayment].queation}}</h2>
                             <br>
                         <div id="conte" style=" margin: auto;">
                             <a class="formi" id="aone" href="javascript:void(0);" (click)="anOption(1)" style="text-decoration: none;">
-                                A.- {{this.allQuestions[currentIndex].an1}} 
+                                A.- {{this.allQuestions[currentIndex+displayment].an1}} 
                              </a><br>
                              <a class="formi" id="atwo" href="javascript:void(0);" (click)="anOption(2)" style="text-decoration: none;">
-                                B.- {{this.allQuestions[currentIndex].an2}}
+                                B.- {{this.allQuestions[currentIndex+displayment].an2}}
                               </a><br>
                               <a class="formi" id="athree" href="javascript:void(0);" (click)="anOption(3)" style="text-decoration: none;">
-                                C.- {{this.allQuestions[currentIndex].an1}}
+                                C.- {{this.allQuestions[currentIndex+displayment].an1}}
                               </a><br>
                               <a class="formi" id="afour" href="javascript:void(0);" (click)="anOption(4)" style="text-decoration: none;">
-                                D.- {{this.allQuestions[currentIndex].an1}}
+                                D.- {{this.allQuestions[currentIndex+displayment].an1}}
                               </a>
                               </div>
                               <br>

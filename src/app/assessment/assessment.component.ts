@@ -17,6 +17,7 @@ export class AssessmentComponent implements OnInit {
   candidateID:number;
   correcta:number;
   texti:String;
+  displayment:number;
 
   allUsers:User[];
   allQuestions: Quiz[];
@@ -73,8 +74,7 @@ export class AssessmentComponent implements OnInit {
   quizOption(i){
     this.credentialsActive=false;
     this.questionsActive = true;
-   //get the data for corret set of questions here
-   //just set the index to option * 10 
+    this.displayment = 10 *(i-1); // Compute displayment to select the correct set of questions according to the quiz type.
   }
 
   anOption(opt){
@@ -112,12 +112,12 @@ export class AssessmentComponent implements OnInit {
         this.questionsActive=false;
         this.correcta=0;
         for(let i=0;i<10;i++){
-          if (this.reponses[i]==this.allQuestions[i].correct)
+          if (this.reponses[i]==this.allQuestions[i+this.displayment].correct)
           {this.correcta++;}
         }
         if(this.correcta>=7)
         {this.texti ="✅ Congratulations! You have passed the assessment."; }
-        else{this.texti =" ❌ UGH! You failed the test! You need at least 7 correct answers";}
+        else{this.texti =" ❌ UGH! You failed the test! You need at least 7 correct answers.";}
     }
     else{
 
