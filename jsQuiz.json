@@ -1,0 +1,163 @@
+{"js":[
+  {
+    "queation": "Q 1 - Which of the following is correct about features of JavaScript?",
+    "an1": "JavaScript is is complementary to and integrated with HTML.",
+    "an2": "JavaScript is open and cross-platform.",
+    "an3": "Both of the above.",
+    "an4": "All of the above.",
+    "correct": 3
+  },
+  {
+    "queation": "Q 2 - Which of the following is true about cookie handling in JavaScript?",
+    "an1": "JavaScript can manipulate cookies using the cookie property of the Document object.",
+    "an2": "JavaScript can read, create, modify, and delete the cookie or cookies that apply to the current web page.",
+    "an3": "Both of the above.",
+    "an4": "None of the above.",
+    "correct": 3
+  },
+  {
+    "queation": "Q 3 - Which built-in method returns the character at the specified index?",
+    "an1": "characterAt()",
+    "an2": "getCharAt()",
+    "an3": "charAt()",
+    "an4": "None of the above.",
+    "correct": 3
+  },
+  {
+    "queation": "Q 4 - Which of the following code creates an object?",
+    "an1": "var book = Object();",
+    "an2": "var book = new Object();",
+    "an3": "var book = new OBJECT();",
+    "an4": "var book = new Book();",
+    "correct": 2
+  },
+  {
+    "queation": "Q 5 - Which of the following function of Number object returns a string value version of the current number?",
+    "an1": "toString()",
+    "an2": "toFixed()",
+    "an3": "toLocaleString()",
+    "an4": "toPrecision",
+    "correct": 1
+  },
+  {
+    "queation": "Q 6 - Which of the following is correct about features of JavaScript?",
+    "an1": "JavaScript is is complementary to and integrated with HTML.",
+    "an2": "JavaScript is open and cross-platform.",
+    "an3": "Both of the above.",
+    "an4": "All of the above.",
+    "correct": 3
+  },
+  {
+    "queation": "Q 7 - Which of the following is true about cookie handling in JavaScript?",
+    "an1": "JavaScript can manipulate cookies using the cookie property of the Document object.",
+    "an2": "JavaScript can read, create, modify, and delete the cookie or cookies that apply to the current web page.",
+    "an3": "Both of the above.",
+    "an4": "None of the above.",
+    "correct": 3
+  },
+  {
+    "queation": "Q 8 - Which built-in method returns the character at the specified index?",
+    "an1": "characterAt()",
+    "an2": "getCharAt()",
+    "an3": "charAt()",
+    "an4": "None of the above.",
+    "correct": 3
+  },
+  {
+    "queation": "Q 9 - Which of the following code creates an object?",
+    "an1": "var book = Object();",
+    "an2": "var book = new Object();",
+    "an3": "var book = new OBJECT();",
+    "an4": "var book = new Book();",
+    "correct": 2
+  },
+  {
+    "queation": "Q 10 - Which of the following function of Number object returns a string value version of the current number?",
+    "an1": "toString()",
+    "an2": "toFixed()",
+    "an3": "toLocaleString()",
+    "an4": "toPrecision",
+    "correct": 1
+  },
+  {
+    "queation": "Q 1 - Which statement(s) best describes an object's attributes?",
+    "an1": "Attributes act like the nouns of an object.",
+    "an2": "Attributes can mean pretty much whatever you want them to mean — that's what we mean by 'open source.'",
+    "an3": "Attributes describe an object's behavior",
+    "an4": "All of the above.",
+    "correct": 3
+  },
+  {
+    "queation": "Q 2 - Which of the following is true about cookie handling in JavaScript?",
+    "an1": "JavaScript can manipulate cookies using the cookie property of the Document object.",
+    "an2": "JavaScript can read, create, modify, and delete the cookie or cookies that apply to the current web page.",
+    "an3": "Both of the above.",
+    "an4": "None of the above.",
+    "correct": 3
+  },
+  {
+    "queation": "Q 3 - Which built-in method returns the character at the specified index?",
+    "an1": "characterAt()",
+    "an2": "getCharAt()",
+    "an3": "charAt()",
+    "an4": "None of the above.",
+    "correct": 3
+  },
+  {
+    "queation": "Q 4 - Which of the following code creates an object?",
+    "an1": "var book = Object();",
+    "an2": "var book = new Object();",
+    "an3": "var book = new OBJECT();",
+    "an4": "var book = new Book();",
+    "correct": 2
+  },
+  {
+    "queation": "Q 5 - Which of the following function of Number object returns a string value version of the current number?",
+    "an1": "toString()",
+    "an2": "toFixed()",
+    "an3": "toLocaleString()",
+    "an4": "toPrecision",
+    "correct": 1
+  },
+  {
+    "queation": "Q 6 - Which of the following is correct about features of JavaScript?",
+    "an1": "JavaScript is is complementary to and integrated with HTML.",
+    "an2": "JavaScript is open and cross-platform.",
+    "an3": "Both of the above.",
+    "an4": "All of the above.",
+    "correct": 3
+  },
+  {
+    "queation": "Q 7 - Which of the following is true about cookie handling in JavaScript?",
+    "an1": "JavaScript can manipulate cookies using the cookie property of the Document object.",
+    "an2": "JavaScript can read, create, modify, and delete the cookie or cookies that apply to the current web page.",
+    "an3": "Both of the above.",
+    "an4": "None of the above.",
+    "correct": 3
+  },
+  {
+    "queation": "Q 8 - Which built-in method returns the character at the specified index?",
+    "an1": "characterAt()",
+    "an2": "getCharAt()",
+    "an3": "charAt()",
+    "an4": "None of the above.",
+    "correct": 3
+  },
+  {
+    "queation": "Q 9 - Which of the following code creates an object?",
+    "an1": "var book = Object();",
+    "an2": "var book = new Object();",
+    "an3": "var book = new OBJECT();",
+    "an4": "var book = new Book();",
+    "correct": 2
+  },
+  {
+    "queation": "Q 10 - Which of the following function of Number object returns a string value version of the current number?",
+    "an1": "toString()",
+    "an2": "toFixed()",
+    "an3": "toLocaleString()",
+    "an4": "toPrecision",
+    "correct": 1
+  }
+ 
+]}
