@@ -6,6 +6,7 @@ import { CredentialServiceService } from '../credential-service.service';
 import { User } from '../credential-service.service';
 import { Quiz, QuizService } from '../quiz.service';
 
+
 @Component({
   selector: 'app-assessment',
   templateUrl: './assessment.component.html',
@@ -18,6 +19,9 @@ export class AssessmentComponent implements OnInit {
   correcta:number;
   texti:String;
   displayment:number;
+  time:any;
+  public minutes:any;
+  public seconds:any;
 
   allUsers:User[];
   allQuestions: Quiz[];
@@ -69,16 +73,23 @@ export class AssessmentComponent implements OnInit {
         this.candidateID=null;
         }
   }
-  
+
 
   quizOption(i){
     this.credentialsActive=false;
     this.questionsActive = true;
     this.displayment = 10 *(i-1); // Compute displayment to select the correct set of questions according to the quiz type.
+    this.time=(new Date().getTime()+600000);
+    this.minutes=Math.floor(((this.time-new Date().getTime()) % (1000 * 60 * 60)) / (1000 * 60)); 
+    this.seconds = Math.floor(((this.time-new Date().getTime()) % (1000 * 60)) / 1000);
   }
 
+  
   anOption(opt){
     this.reponses[this.currentIndex]=opt;
+    this.minutes=Math.floor(((this.time-new Date().getTime()) % (1000 * 60 * 60)) / (1000 * 60));
+    this.seconds = Math.floor(((this.time-new Date().getTime()) % (1000 * 60)) / 1000);
+    //this.minutes=(this.time-new Date().getTime())/(60000);
 
     //Reset the active element
     var contenedores=document.getElementById("conte");
